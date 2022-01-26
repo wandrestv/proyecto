@@ -18,8 +18,5 @@ class Empleado:
         self.departamento = codDepartamento
         self.sueldo = sueldo
 
-    def mostrar_empleado(self):
-            print("{} - {} - {} - {}".format(self.codigo_empleado,self.nombre,self.cedula,self.cargo,self.departamento))
-
     def registro_empleados(self):
         return{"codigo":self.codigo_empleado,"nombre":self.nombre,"cedula":self.cedula,"cargo":self.cargo,"departamento":self.departamento,"sueldo":self.sueldo}
